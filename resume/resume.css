@@ -25,3 +25,7 @@
 .education p {
     margin-bottom: 0;
 }
+
+.education-section {
+    display: flex;
+}
