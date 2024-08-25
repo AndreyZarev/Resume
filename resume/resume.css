@@ -22,10 +22,24 @@
     width: 49%;
 }
 
-.education p {
+/* .education p {
     margin-bottom: 0;
-}
+} */
 
 .education-section {
     display: flex;
+    border: 2px solid black;
+    margin: 1em;
+    padding: 1em;
+}
+
+.education-section button {
+    height: 2em;
+    display: block;
+    margin: auto auto;
+}
+
+.education-section button a {
+    text-decoration: none;
+    color: black;
 }
