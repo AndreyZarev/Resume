@@ -5,6 +5,8 @@
     max-width: 70%;
     display: flex;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font: inherit;
 }
 
 .img {
@@ -20,6 +22,8 @@
 .right,
 .left {
     width: 49%;
+    font: inherit;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* .education p {
@@ -27,19 +31,77 @@
 } */
 
 .education-section {
-    display: flex;
+    background-image: url(./gettyimages-1277772615-612x612.jpg);
+    background-size: contain;
     border: 2px solid black;
     margin: 1em;
-    padding: 1em;
+    font: inherit;
+
 }
 
-.education-section button {
+
+.title-image {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.916);
+    font: inherit;
+
+}
+
+.title-image div {
+    display: block;
+    margin: auto;
+    display: flex;
+    font: inherit;
+
+}
+
+
+
+.softuni-logo {
+    padding: 1em;
+    width: 2em;
     height: 2em;
+}
+
+h3 {
+    font: inherit;
+
+}
+
+
+.text-button {
+    font-weight: 600;
+    padding: 1em;
+    display: flex;
+    padding-top: 0;
+    background-color: rgba(255, 255, 255, 0.916);
+    font: inherit;
+
+}
+
+.text-button button {
+    height: 2em;
+    padding: 0;
     display: block;
     margin: auto auto;
+    border-radius: 0.5em;
+
 }
 
-.education-section button a {
+.text-button button a {
+    padding: 0.5em 1.6em;
     text-decoration: none;
     color: black;
+    font-weight: 600;
+    font: inherit;
+
+}
+
+.text-button button:hover {
+    background-color: rgba(62, 59, 59, 0.902);
+    border: none;
+}
+
+.text-button button a:hover {
+    color: white;
 }
