@@ -34,6 +34,17 @@
     display: block;
 }
 
+.imageName h2 {
+    display: block;
+    margin: 1em auto;
+    position: relative;
+}
+
+.imageName {
+
+    position: relative;
+}
+
 .title-image {
     display: flex;
     background-color: rgba(255, 255, 255, 0.916);
@@ -49,10 +60,7 @@
 
 }
 
-.imageName h2 {
-    display: block;
-    margin: 1em auto;
-}
+
 
 
 
