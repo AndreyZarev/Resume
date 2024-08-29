@@ -76,6 +76,12 @@
     padding: 0.5em;
 }
 
+.technologies ul li {
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+
 
 /* .right */
 
