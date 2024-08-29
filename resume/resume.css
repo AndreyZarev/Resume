@@ -18,6 +18,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* left */
+
 .left {
     border-right: 0.2em solid rgb(139, 138, 146);
 }
@@ -61,10 +63,16 @@
 
 }
 
+.technologies {
+    font-family: 'Times New Roman', Times, serif;
+
+}
 
 
 
 
+
+/* .right */
 
 
 .education-section {
