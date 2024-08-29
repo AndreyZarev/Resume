@@ -69,7 +69,11 @@
 }
 
 
-
+.technologies h3 {
+    font-weight: 600;
+    background-color: rgb(139, 138, 146);
+    color: white;
+}
 
 
 /* .right */
