@@ -10,10 +10,22 @@
     font: inherit;
 }
 
+div,
+article,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section {
+    font-family: 'Times New Roman', Times, serif;
+
+}
 
 .right,
 .left {
-    width: 49%;
+    width: 50%;
     font: inherit;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -63,6 +75,18 @@
 
 }
 
+.contacts h3 {
+    font-weight: 600;
+    background-color: rgb(139, 138, 146);
+    color: white;
+    padding: 0.5em;
+}
+
+.contacts ul li {
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
 .technologies {
     font-family: 'Times New Roman', Times, serif;
 
@@ -86,6 +110,11 @@
 /* .right */
 
 
+.right {
+    display: block;
+    margin: auto;
+}
+
 .education-section {
     background-image: url(./gettyimages-1277772615-612x612.jpg);
     background-size: contain;
@@ -105,8 +134,11 @@
     height: 2em;
 }
 
-h3 {
-    font: inherit;
+.education .certificateH3 {
+    font-weight: 600;
+    background-color: rgb(139, 138, 146);
+    color: white;
+    padding: 0.5em;
 
 }
 
