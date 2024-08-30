@@ -87,6 +87,18 @@ section {
     margin-bottom: 0.3em;
 }
 
+.contacts ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts ul li a:hover {
+
+    color: rgba(18, 5, 5, 0.646);
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em;
+}
+
 .technologies {
     font-family: 'Times New Roman', Times, serif;
 
@@ -119,7 +131,7 @@ section {
     background-image: url(./gettyimages-1277772615-612x612.jpg);
     background-size: contain;
     border: 2px solid black;
-    margin: 1em;
+    margin: 2em;
     font: inherit;
 
 }
