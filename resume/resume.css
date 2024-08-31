@@ -117,6 +117,26 @@ section {
     margin-bottom: 0.3em;
 }
 
+.experience h3 {
+    font-weight: 600;
+    background-color: rgb(139, 138, 146);
+    color: white;
+    padding: 0.5em;
+}
+
+.experience section {
+    padding: 1em;
+}
+
+.experience section div {
+    display: flex;
+}
+
+.pontica {
+    padding-top: 1em;
+    padding-left: 2em;
+    height: 2em;
+}
 
 
 /* .right */
