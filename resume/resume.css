@@ -133,9 +133,16 @@ section {
 }
 
 .pontica {
-    padding-top: 1em;
+    padding-top: 0.9em;
     padding-left: 2em;
     height: 2em;
+}
+
+.sixty {
+    padding-top: 0;
+    padding-left: 2em;
+    margin-top: -0.08em;
+    height: 4em;
 }
 
 
