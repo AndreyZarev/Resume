@@ -33,7 +33,7 @@ section {
 /* left */
 
 .left {
-    border-right: 0.2em solid rgb(139, 138, 146);
+    border-right: 0.2em dotted rgb(139, 138, 146);
 }
 
 
@@ -80,6 +80,9 @@ section {
     background-color: rgb(139, 138, 146);
     color: white;
     padding: 0.5em;
+    margin-right: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 .contacts ul li {
@@ -110,6 +113,9 @@ section {
     background-color: rgb(139, 138, 146);
     color: white;
     padding: 0.5em;
+    margin-right: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 .technologies ul li {
@@ -122,6 +128,9 @@ section {
     background-color: rgb(139, 138, 146);
     color: white;
     padding: 0.5em;
+    margin-right: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 .experience section {
@@ -152,6 +161,7 @@ section {
 .right {
     display: block;
     margin: auto;
+    margin-top: 0;
 }
 
 .education-section {
@@ -178,6 +188,10 @@ section {
     background-color: rgb(139, 138, 146);
     color: white;
     padding: 0.5em;
+    padding-left: 1em;
+    margin-left: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
 
 }
 
