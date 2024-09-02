@@ -18,6 +18,10 @@
     font-size: 2em;
     text-align: center;
     border-bottom: 0.1em solid rgb(139, 138, 146);
+    background-color: rgb(139, 138, 146);
+    color: white;
+    /* margin-top: -1em; */
+    padding-top: 0.1em;
 }
 
 div,
@@ -38,12 +42,15 @@ section {
     width: 50%;
     font: inherit;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 /* left */
 
 .left {
     border-right: 0.2em dotted rgb(139, 138, 146);
+    padding-top: 1.5em;
+
 }
 
 
@@ -175,6 +182,8 @@ section {
     display: block;
     margin: auto;
     margin-top: 0;
+    padding-top: 2em;
+
 }
 
 .education-section {
@@ -263,4 +272,55 @@ section {
 
 .text-button button a:hover {
     color: white;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .right,
+    .left {
+        word-break: break-all;
+
+    }
+
+    .resume-container {
+        max-width: 95%;
+    }
+
+    .contacts ul li {
+        font-weight: 600;
+        margin-bottom: 0.3em;
+        word-break: break-all;
+    }
+}
+
+@media (max-width: 512px) {
+    .container {
+        display: block;
+        position: relative;
+    }
+
+    .right,
+    .left {
+        width: 100%;
+
+    }
+
+    .left {
+        border: none;
+    }
+}
+
+@media (max-width: 224px) {
+    .text-button button a {
+        padding: 0.5em;
+
+    }
+
+    .text-button button {
+        height: 3em;
+
+
+    }
 }
