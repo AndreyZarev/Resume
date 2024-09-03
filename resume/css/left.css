@@ -1,0 +1,126 @@
+.left {
+    border-right: 0.2em dotted rgb(139, 138, 146);
+    padding-top: 1.5em;
+
+}
+
+
+.img {
+    width: 60%;
+    height: 1;
+
+    border: 0.4em solid rgb(139, 138, 146);
+
+    border-radius: 0.3em;
+    margin: 2em auto;
+    display: block;
+}
+
+.imageName h2 {
+    text-align: center;
+    margin: 1em auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* .imageName {
+
+    position: relative;
+} */
+
+
+
+.contacts h3 {
+    font-weight: 600;
+    background-color: rgb(139, 138, 146);
+    color: white;
+    padding: 0.5em;
+    margin-right: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.contacts ul li {
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+.contacts ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts ul li a:hover {
+
+    color: rgba(18, 5, 5, 0.646);
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em;
+}
+
+.technologies {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.technologies h3 {
+    font-weight: 600;
+    background-color: rgb(139, 138, 146);
+    color: white;
+    padding: 0.5em;
+    margin-right: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.technologies ul li {
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+
+.experience h3 {
+    font-weight: 600;
+    background-color: rgb(139, 138, 146);
+    color: white;
+    padding: 0.5em;
+    margin-right: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+
+    margin-bottom: 0;
+}
+
+.experience section {
+    margin: 1.5em;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+.experience section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience section ul {
+    padding-left: 1em;
+
+}
+
+.experience section div h4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 2em;
+
+}
+
+.pontica {
+    padding-top: 0.9em;
+    height: 2em;
+}
+
+.sixty {
+    padding-top: 0;
+    margin-top: -0.08em;
+    height: 4em;
+}
