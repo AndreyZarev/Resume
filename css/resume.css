@@ -1,6 +1,13 @@
 @import "./left.css";
 @import "./right.css";
 
+
+* {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+
 .resume-container {
     border: 0.2em solid rgb(139, 138, 146);
     border-radius: 0.3em;
